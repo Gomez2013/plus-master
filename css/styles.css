@@ -6,15 +6,19 @@ h1{
   color: skyblue;
 
 }
+h2{
+
+}
 a:link, a {
    padding: 100px 50px;
     text-decoration: none; 
     color: tan;
     font-size: 30px;
     font-family: 'Merriweather Sans', sans-serif;
+left:50px;
 }
 a:hover{
-color: pink;
+color: pink
 }
 
 a:visited{
@@ -25,6 +29,9 @@ li {
     
 }
 
+footer {
+position: absolute;
+}
 /* Global
 ================================ */
 
@@ -41,7 +48,7 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 }
-}
+
 img {
 	width: 50%;
     border-radius: 450%;
